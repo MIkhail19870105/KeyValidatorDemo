@@ -2,27 +2,27 @@
 
 ## Краткое описание
 
-26.04.2020 - 27.04.2020 было проведено тестирование установки и функциональное тестирование приложения [KeyValidator](https://github.com/MIkhail19870105/KeyValidatorDemo/blob/master/KeyValidator.class).
+26.04.2020 - 26.04.2020 было проведено тестирование установки и функциональное тестирование приложения [KeyValidator](https://github.com/MIkhail19870105/KeyValidatorDemo/blob/master/KeyValidator.class).
 
 На тестирование затрачено: 1 hour
 
-Чек лист
-* Инструкция по установке OpenJDK11 работает под вашу ОС [Инструкция по установке OpenJDK](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md) Passed
-* Приложение запускается и совместимо с Java 11 passed
-* Приложение работает согласно руководству использования [Руководство пользования KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md#%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-keyvalidator) Failed
+## Чек лист:
+1. Выполнить инструкцию по установке OpenJDK11 убедиться в том что она работает под вашу ОС [Инструкция по установке OpenJDK](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md): **Passed**
+2. Запустить приложение KeyValidator убедиться в совместимости с Java 11: **Passed**
+3. Используя [Руководство пользования KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md#%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-keyvalidator) убедиться в работоспособности приложения: **Failed**
 
 В результате тестирования выявлены следующие дефекты:
-* <ссылка на описание дефекта>
-* <ссылка на описание дефекта>
-* <ссылка на описание дефекта>
+* [Bug#1 Некоторые валидные ключи не прошли проверку](https://github.com/MIkhail19870105/KeyValidatorDemo/issues/1#issue-607027362)
+* [Bug#2 Некоторые невалидные ключи не прошли проверку](https://github.com/MIkhail19870105/KeyValidatorDemo/issues/2#issue-607028887)
+
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты*:
 * Bug Report в Issues проекта
 
-
 В качестве тестовых данных использовались данные из [Руководство пользования KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md#%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-keyvalidator):
+
 ## Ключи для проверки
 
 Валидные ключи:
