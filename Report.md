@@ -39,7 +39,7 @@
 * c2bc778a-1cb9-46c6-b435-0489649d2a42
 * 2fb98b44-93e7-3bdd-a2ad-79347bfe4ad1
 
-Тестирование производилось в следующем окружении:
+## Тестирование производилось в следующем окружении:
 * Windows 10 Pro X64
 * openjdk version "11.0.7" 2020-04-14
 * OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.7+10)
